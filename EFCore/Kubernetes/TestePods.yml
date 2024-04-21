@@ -1,0 +1,12 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  name: apikubernetespod
+  labels: 
+    app: apikubernetespod
+spec: 
+  containers:
+  - name: apikubernetespod
+    image: nomedaimagemnodockerhub
+    ports:
+    - containerPort: 80
